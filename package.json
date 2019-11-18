@@ -1,0 +1,35 @@
+{
+  "name": "koa_mysql",
+  "version": "1.0.0",
+  "description": "Test task for Aline",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "cross-env NODE_ENV=development nodemon src/server.js --watch src",
+    "lint": "eslint src tests",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ivanov Artem",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^6.10.2",
+    "async-redis": "^1.1.7",
+    "chalk": "^3.0.0",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa-static-server": "^1.4.0",
+    "mysql": "^2.17.1",
+    "redis": "^2.8.0",
+    "swagger-jsdoc": "^3.4.0",
+    "util": "^0.12.1"
+  },
+  "devDependencies": {
+    "cross-env": "^6.0.3",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "mockjs": "^1.1.0",
+    "nodemon": "^1.19.4"
+  }
+}
