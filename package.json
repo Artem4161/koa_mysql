@@ -12,7 +12,7 @@
   "author": "Ivanov Artem",
   "license": "ISC",
   "dependencies": {
-    "ajv": "^6.10.2",
+    "ajv": "^6.12.3",
     "async-redis": "^1.1.7",
     "chalk": "^3.0.0",
     "koa": "^2.11.0",
